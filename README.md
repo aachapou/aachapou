@@ -1,43 +1,26 @@
-### Hi, I'm Alex 👋
+### Hi, I'm Alex
 
-I'm a software engineer who builds **secure backend systems and applied AI**. I'm starting my M.Eng. in Computer Science (AI/ML) at **Cornell Tech** in 2026, after finishing a B.S. at Arizona State (3.90, summa cum laude).
+Software engineer focused on **secure backend systems and applied AI**. M.Eng. in Computer Science (AI/ML) at **Cornell Tech**, graduating **May 2027**. B.S. from Arizona State, 3.90, summa cum laude.
 
-For the past two years I've shipped production infrastructure that people log in through every day: authentication servers, mobile MFA, and LLM-powered internal search.
+**Open to 2027 new-grad software engineering roles.**
 
----
+#### What I've shipped in production
+*Code is under NDA; happy to walk through the design.*
 
-#### 🔭 What I work on
+- **In-house MFA server.** Proposed and owned a multithreaded Python RADIUS server with Active Directory, push approvals, and TOTP fallback, replacing a vendor whose prompts often timed out. Login success rose from **60% to 95%** for 100+ employees, and it cut **$48K/year** in vendor costs. In production for 1.5+ years.
+- **Mobile MFA app.** React Native/TypeScript app with TOTP written from scratch and one-tap push approvals, shipped to the **App Store and Google Play**.
+- **AI video search.** Whisper, Qdrant, and a private local LLM over **300+ hours** of internal video, so employees ask questions instead of rewatching recordings.
 
-- **Authentication & security:** MFA, TOTP, push approvals, LDAP/AD, RADIUS, and guardrails for AI agents
-- **Backend systems:** multithreaded Python services, REST APIs, event-driven pipelines
-- **Applied AI:** RAG, embeddings and vector search, local LLMs, and speech and vision pipelines
+#### Featured projects
 
-#### 🏢 Highlights from industry (code is private)
+- **[Immune Harness](https://github.com/aachapou/Immune-Harness)**: a security gateway for AI agents that intercepts tool calls, catches new attacks, and writes its own guardrails. Blocked **7/7 attacks with 0 false positives**. *Python · FastAPI · MongoDB Atlas · LLMs*
+- **[Northstar Trading](https://github.com/aachapou/Stock-Trading-System)**: a paper-trading platform with live market data, a background order engine, and automated stop-loss/take-profit exits. *Python · Flask · SQLAlchemy · pytest*
 
-- Led a 4-person team replacing a third-party MFA platform with an in-house **multithreaded Python auth server (LDAP + TOTP)**. Login success went from **60% to 95%**, it saves **$48K/year**, and it has run in production for 1.5+ years.
-- Shipped a **React Native / TypeScript MFA app** with TOTP written from scratch and one-tap push approvals to the **App Store and Google Play** for 100+ employees.
-- Built **AI search over 300+ hours of internal video** (Whisper, OpenCV, Qdrant) and a **private local LLM with RAG** (MLX, LiteLLM).
+#### Tech
+**Python · TypeScript · C++ · SQL** · FastAPI · Flask · React Native · AWS · MongoDB · Redis · Docker · RAG · LLM agents
 
-#### 🚀 Featured projects
+#### Awards
+1st Place, AWS JAM Challenge (2026) · 1st Place, ASU Hackathon (2024)
 
-| Project | What it is | Stack |
-|---|---|---|
-| [**Immune Harness**](https://github.com/aachapou/Immune-Harness) | A security gateway for AI agents that intercepts every tool call, catches new attacks, and **writes its own guardrails**. Blocked 7/7 attacks with 0 false positives; blocks from memory are 2.6× faster than LLM decisions. | Python · FastAPI · MongoDB Atlas · LLMs · Streamlit |
-| [**Northstar Trading**](https://github.com/aachapou/Stock-Trading-System) | A paper-trading platform with a live Yahoo Finance stream, a background order engine, and automated stop-loss / take-profit exits. | Python · Flask · SQLAlchemy · yfinance · pytest |
-
-#### 🛠 Toolbox
-
-**Languages:** Python · TypeScript · JavaScript · C++ · C · SQL
-**Backend:** FastAPI · Flask · REST · multithreading · React Native · LDAP/AD · RADIUS · TOTP/MFA
-**AI/ML:** LLM agents · RAG · embeddings · Qdrant · MLX · LiteLLM · OpenRouter · Claude API · Whisper · OpenCV
-**Cloud & data:** AWS (EC2, RDS, Lambda, S3) · MongoDB Atlas · MySQL · Redis
-**Tooling:** Docker · CI/CD · pytest · uv · Linux · Git
-
-#### 🏆 Awards
-
-- 🥇 **1st Place, AWS JAM Challenge** (2026)
-- 🥇 **1st Place, ASU Hackathon** (2024)
-
-#### 📫 Get in touch
-
+#### Contact
 [LinkedIn](https://www.linkedin.com/in/alexandr-achapovski) · [aa2987@cornell.edu](mailto:aa2987@cornell.edu)
